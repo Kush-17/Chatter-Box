@@ -17,22 +17,21 @@ Welcome to **Chatter-Box**, a real-time chat application built with modern techn
 
 ### Frontend
 
-- **[React](https://reactjs.org/)**: A JavaScript library for building user interfaces. React allows for the creation of reusable UI components and provides an efficient way to manage the state of the application.
+- **[React](https://reactjs.org/)**
 
-- **[styled-components](https://styled-components.com/)**: A library for styling React components using tagged template literals. It allows you to write CSS code within JavaScript files and helps keep the concerns of styling and component logic together.
+- **[styled-components](https://styled-components.com/)**
 
 ### Backend
 
-- **[Node.js](https://nodejs.org/)**: A JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js allows for server-side scripting and provides an event-driven, non-blocking I/O model that makes it lightweight and efficient.
+- **[Node.js](https://nodejs.org/)**
 
-- **[Express](https://expressjs.com/)**: A minimal and flexible Node.js web application framework that provides a robust set of features for building web and mobile applications. It simplifies the creation of server-side logic and handling of HTTP requests and responses.
+- **[Express](https://expressjs.com/)**
 
-- **[Socket.IO](https://socket.io/)**: A JavaScript library for real-time web applications. Socket.IO enables real-time, bi-directional communication between web clients and servers, making it ideal for chat applications.
+- **[Socket.IO](https://socket.io/)**
 
 ### Database
 
-- **[MongoDB](https://www.mongodb.com/)**: A NoSQL database that uses a document-oriented data model. MongoDB allows for flexible schema design and efficient querying of large datasets, which is useful for storing user data and chat messages.
-
+- **[MongoDB](https://www.mongodb.com/)**
 
 
 ## 🖼️ Screenshots
