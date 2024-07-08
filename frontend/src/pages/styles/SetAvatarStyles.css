@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.loader {
+    width: 200px;
+    height: 200px;
+    margin-top: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+    transition: all 0.3s;
+}
+
+.logo {
+    height: 25vh;
+    width: 20vw;
+    display: flex;
+    border-radius: 3rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 10px rgba(0, 118, 255, 1);
+}
+
+.submit-btn {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: 2px solid #00bfa6;
+    background-color: #00bfa6;
+    color: #ffffff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+
+    &:hover {
+        background-color: #00796b;
+        border-color: #00796b;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transform: scale(1.05);
+    }
+
+    &:active {
+        background-color: #004d40;
+        border-color: #004d40;
+    }
+}
+
+.avatars {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin-top: 2rem;
+
+    .avatar {
+        cursor: pointer;
+
+        img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+
+            &:hover {
+                transform: scale(1.1);
+                box-shadow: 0 0 20px #00d4ff, 0 0 40px #00d4ff, 0 0 60px #00d4ff;
+            }
+        }
+    }
+
+    .selected {
+        img {
+            border: 2px solid #00c853;
+            box-shadow: 0 0 20px #00c853, 0 0 40px #00c853, 0 0 60px #00c853;
+        }
+    }
+}
+
+.title-container {
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: #06b6d4;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+    }
+}
